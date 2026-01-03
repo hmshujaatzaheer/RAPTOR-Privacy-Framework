@@ -1,0 +1,42 @@
+# RAPTOR Default Configuration
+# Real-time Adaptive Privacy Through Output Regulation
+
+rplq:
+  alpha: 0.4  # Weight for membership inference risk
+  beta: 0.3   # Weight for model inversion risk
+  gamma: 0.3  # Weight for extraction risk
+  num_shadow_models: 1
+  mia_threshold: 0.5
+  similarity_k: 10
+  perplexity_threshold: 50.0
+  use_importance_net: true
+
+aos:
+  sigma_min: 0.01
+  sigma_max: 1.0
+  noise_type: gaussian  # gaussian or laplace
+  temperature_min: 1.0
+  temperature_max: 3.0
+  truncation_threshold: 0.7
+  mapping_type: sigmoid
+  sigmoid_steepness: 10.0
+  sigmoid_midpoint: 0.5
+  clip_outputs: true
+
+pupo:
+  learning_rate: 0.01
+  momentum: 0.9
+  lambda_privacy: 0.5
+  lambda_utility: 0.5
+  buffer_size: 1000
+  min_samples_for_update: 50
+  update_frequency: 10
+  exploration_bonus: 0.1
+  ucb_coefficient: 2.0
+
+# Framework settings
+enable_feedback_loop: true
+log_queries: true
+latency_budget_ms: 10.0
+simulate_attacks: true
+attack_sample_rate: 0.1
