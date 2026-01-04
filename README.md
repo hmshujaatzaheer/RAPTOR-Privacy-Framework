@@ -17,7 +17,6 @@ A unified framework for real-time privacy measurement and adaptive defense in ma
 
 - [Installation](#installation)
 - [Quick Start](#quick-start)
-- [Architecture](#architecture)
 - [Components](#components)
 - [Benchmarks](#benchmarks)
 - [Citation](#citation)
