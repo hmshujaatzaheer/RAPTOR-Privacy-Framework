@@ -219,10 +219,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Email: shujabis@gmail.com
 - GitHub: [@hmshujaatzaheer](https://github.com/hmshujaatzaheer)
 
-## 🙏 Acknowledgments
 
-This work is proposed for the VaultML project at EPFL Spring Laboratory. We acknowledge the foundational contributions of:
-- Kulynych et al. (NeurIPS 2024) - Attack-aware noise calibration
-- Avent et al. (PoPETs 2020) - Privacy-utility Pareto fronts
-- Carlini et al. (IEEE S&P 2022) - LiRA membership inference
-- Murakonda & Shokri (HotPETs 2020) - ML Privacy Meter
